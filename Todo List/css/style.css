@@ -1,0 +1,39 @@
+body {
+  background: #000000;
+}
+.container {
+  max-width: 400px;
+  margin-top: 90px;
+}
+.search i {
+  position: absolute;
+}
+.search {
+  position: relative;
+}
+.icon {
+  padding: 10px;
+  left: 0;
+}
+.input-field {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #050505;
+  border: none;
+  background: rgb(255, 255, 255);
+  max-width: 400px;
+}
+.todos li {
+  background: #ee3b3b;
+  margin: 6px 10px;
+}
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
